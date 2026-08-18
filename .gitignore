@@ -1,0 +1,20 @@
+# Java build output
+*.class
+out/
+build/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Private club operations (keep outside the public repository)
+private/
+attendance/
+member-progress/
